@@ -151,7 +151,6 @@ MonoBehaviour:
   required: 0
   customRuntimeLoaderName: 
   enableSubsampledLayout: 0
-  useEyeTracking: 1
 --- !u!114 &-7082348931688622527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,6 +298,7 @@ MonoBehaviour:
   m_Name: AndroidMouseInteractionProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.AndroidMouseInteractionProfile
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Android Mouse Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.androidmouse
@@ -453,39 +453,35 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: -6297668203875357954}
-  - {fileID: 8678294489858735933}
-  - {fileID: 3887807759691619539}
-  - {fileID: 4863645300293877627}
-  - {fileID: 3467442769807962057}
-  - {fileID: -5749814614429940816}
-  - {fileID: 1760385670502100244}
-  - {fileID: -7169893288138400490}
+  - {fileID: 5888174537810491563}
   - {fileID: 7093274400983708873}
+  - {fileID: 3467442769807962057}
+  - {fileID: -5525673364619339162}
+  - {fileID: -3835902318134499262}
+  - {fileID: -2450939052925254489}
+  - {fileID: 7306624982686397347}
+  - {fileID: 8727129823558977031}
+  - {fileID: -7169893288138400490}
   - {fileID: -1442595557629220531}
   - {fileID: -6548565765034843960}
-  - {fileID: 6589703540806066501}
-  - {fileID: 7306624982686397347}
-  - {fileID: -5731909118706727387}
-  - {fileID: 752610191943713377}
-  - {fileID: -7648801295285826411}
-  - {fileID: 8727129823558977031}
-  - {fileID: 9213024113141931948}
-  - {fileID: 9123152376288210104}
-  - {fileID: -5755940580482424566}
-  - {fileID: 5888174537810491563}
   - {fileID: -1776457466483975951}
   - {fileID: 8764617252017651968}
-  - {fileID: -2646373855628927287}
-  - {fileID: -7082348931688622527}
-  - {fileID: -2450939052925254489}
-  - {fileID: 7558491438034089568}
-  - {fileID: -2327926404935987443}
-  - {fileID: 2140865748060770500}
-  - {fileID: -3835902318134499262}
-  - {fileID: -5525673364619339162}
-  - {fileID: 6333193668274784377}
+  - {fileID: 4863645300293877627}
+  - {fileID: -5755940580482424566}
+  - {fileID: -7648801295285826411}
   - {fileID: -7628429065186783011}
+  - {fileID: 6333193668274784377}
+  - {fileID: 2140865748060770500}
+  - {fileID: -7082348931688622527}
+  - {fileID: -2327926404935987443}
+  - {fileID: 752610191943713377}
+  - {fileID: 3887807759691619539}
+  - {fileID: 8678294489858735933}
+  - {fileID: 9123152376288210104}
+  - {fileID: -5731909118706727387}
+  - {fileID: -6297668203875357954}
+  - {fileID: 1760385670502100244}
+  - {fileID: -2646373855628927287}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 1
@@ -494,7 +490,7 @@ MonoBehaviour:
     m_List: 00000000
   m_depthSubmissionMode: 0
   m_spacewarpMotionVectorTextureFormat: 0
-  m_optimizeBufferDiscards: 0
+  m_optimizeBufferDiscards: 1
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
@@ -862,6 +858,7 @@ MonoBehaviour:
   m_Name: DebugUtilsFeature Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.DebugUtilsFeature
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Debug Utils
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.debugutils
@@ -1143,8 +1140,8 @@ MonoBehaviour:
     enabled: 1
   forceRemoveInternetPermission: 0
   m_symmetricProjection: 0
+  m_foveatedRenderingApi: 0
   systemSplashScreen: {fileID: 0}
-  enableSystemKeyboard: 0
   m_optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
@@ -1244,7 +1241,6 @@ MonoBehaviour:
   required: 0
   customRuntimeLoaderName: 
   enableSubsampledLayout: 0
-  useEyeTracking: 1
 --- !u!114 &6333193668274784377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1311,6 +1307,7 @@ MonoBehaviour:
   m_Name: ApiLayersFeature Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.ApiLayersFeature
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: API Layers
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.apilayers
@@ -1460,6 +1457,7 @@ MonoBehaviour:
   m_Name: ApiLayersFeature Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.ApiLayersFeature
   m_enabled: 1
+  <failedInitialization>k__BackingField: 0
   nameUi: API Layers
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.apilayers
@@ -1470,16 +1468,7 @@ MonoBehaviour:
   required: 0
   customRuntimeLoaderName: 
   m_ApiLayers:
-    m_Collection:
-    - m_Json:
-        name: XR_APILAYER_METAX_operator
-        library_path: ./XrApiLayer_METAX_operator.dll
-        api_version: 1.1
-        implementation_version: 1
-        description: API layer that providing agentic interface for OpenXR
-      m_JsonFileName: XrApiLayer_METAX_operator.json
-      m_LibraryArchitecture: 1
-      m_IsEnabled: 1
+    m_Collection: []
 --- !u!114 &8604667972973987284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,37 +1572,34 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: -7575160445425345021}
-  - {fileID: -200148641536994502}
   - {fileID: 8604667972973987284}
-  - {fileID: 5803817418268782022}
+  - {fileID: -824232577897888309}
+  - {fileID: 1491440267919206510}
+  - {fileID: 4888524407193561208}
+  - {fileID: -8280685450659119670}
+  - {fileID: 8005999413598346349}
   - {fileID: 6113194922386890930}
   - {fileID: 2113799539679728605}
   - {fileID: -5714464851064964280}
-  - {fileID: 8581180250510712965}
-  - {fileID: -8280685450659119670}
   - {fileID: 4124759616254220645}
   - {fileID: -5730213798246215453}
-  - {fileID: 1476318527448535565}
-  - {fileID: -8689168651785846691}
-  - {fileID: -6250814514274249384}
-  - {fileID: -6972150873039285965}
-  - {fileID: 8005999413598346349}
-  - {fileID: 1519023015102640904}
-  - {fileID: 9123017534638733734}
-  - {fileID: -5367326991673341396}
   - {fileID: -4102342845277673554}
-  - {fileID: 3652818736700414754}
   - {fileID: 4352386138537935751}
-  - {fileID: -5488674999380870200}
-  - {fileID: 4888524407193561208}
-  - {fileID: -3172332892600457170}
-  - {fileID: 6670799758078888936}
-  - {fileID: -3657035462909301252}
-  - {fileID: 1491440267919206510}
-  - {fileID: -824232577897888309}
-  - {fileID: 4226964156418355577}
+  - {fileID: -5367326991673341396}
+  - {fileID: -6250814514274249384}
   - {fileID: -523893347263658880}
+  - {fileID: 4226964156418355577}
+  - {fileID: -3657035462909301252}
+  - {fileID: 6670799758078888936}
+  - {fileID: -8689168651785846691}
+  - {fileID: 3652818736700414754}
+  - {fileID: -200148641536994502}
+  - {fileID: 9123017534638733734}
+  - {fileID: 1476318527448535565}
+  - {fileID: -7575160445425345021}
+  - {fileID: -6972150873039285965}
+  - {fileID: 5803817418268782022}
+  - {fileID: -5488674999380870200}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -1686,6 +1672,7 @@ MonoBehaviour:
   m_Name: DebugUtilsFeature Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.DebugUtilsFeature
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Debug Utils
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.debugutils
